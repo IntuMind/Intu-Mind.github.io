@@ -12,8 +12,14 @@
 	
  	<nav class="navOption">
     	<div class="nav-wrapper">
-      		<a href="#" class="brand-logo"><img src="Intu-Mind-Logo.png" id="logoImage"></a>
-      		<ul id="nav-mobile" class="right hide-on-med-and-down">
+      		<a href="#" class="brand-logo">Intu-Mind</a>
+      		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      		<ul class="right hide-on-med-and-down">
+        		<li><a href="#install">Install</a></li>
+        		<li><a href="#features">Features</a></li>
+        		<li><a href="#about">Philosophy</a></li>
+      		</ul>
+      		<ul class="side-nav" id="mobile-demo">
         		<li><a href="#install">Install</a></li>
         		<li><a href="#features">Features</a></li>
         		<li><a href="#about">Philosophy</a></li>
@@ -122,6 +128,7 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
       		$('.parallax').parallax();
+      		$(".button-collapse").sideNav();
     	});
 	</script>
 </body>
