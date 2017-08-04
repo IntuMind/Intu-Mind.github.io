@@ -9,16 +9,10 @@
 	position: fixed;
 }
 
-.nav-wrapper img{
-	width: 7%;
-	height: 7%;
-	padding-top: 5px;
-	padding-left: 5px;
-}
-
 .parallax-container h1{
 	padding-top: 150px;
 	text-align: center;
+	font-family: "Norwester";
 	color: #fff;
 }
 
